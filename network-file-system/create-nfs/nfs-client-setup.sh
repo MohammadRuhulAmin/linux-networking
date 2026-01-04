@@ -20,7 +20,6 @@ sudo vi /etc/fstab
 sudo mount -a
 
 # If issue found in firewall 
-
 sudo ufw allow from 10.10.200.72 to any port nfs
 sudo ufw allow 111
 sudo ufw allow 2049
